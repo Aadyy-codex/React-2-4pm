@@ -6,8 +6,8 @@ const MyComp = () => {
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
         <p> Counter: {count}</p>
-      <button onClick={() => setCount((pval)=>pval+1)}> Increment </button>
-      <button onClick={() => setCount(count > 0 ? count - 1 : 0)}> Decrement </button>
+      <button onClick={() => setCount((pval)=>pval+1)} > Increment </button>
+      <button onClick={() => setCount(count > 0 ? count - 1 : 0)} > Decrement </button>
     </div>
   )
 }
